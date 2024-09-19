@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Image</title>
+</head>
+<body>
+    <script>
+        const images = ["https://drive.google.com/uc?export=view&id=1iQAvZmLyZCpRP-lxZcslco3GEeWct_8C", "https://drive.google.com/uc?export=view&id=106xCBMe9_bASEBvnCHveahzg0tPW7IPa", "https://drive.google.com/uc?export=view&id=1hPYebEpspgmX2YyWU00GnSeRuPRpIpZP", "https://drive.google.com/uc?export=view&id=1wBEFCVqmQDjxTXxV0LC6gft-PrsfF29h", "https://drive.google.com/uc?export=view&id=1QHe30zuGyFKXDvEuwQNjPXqKBMvrbvle", "https://drive.google.com/uc?export=view&id=1j-ZbKxsUTDuNNysS01L9ZpBQJ5-2SB8l", "https://drive.google.com/uc?export=view&id=1HhreE6Vt6W5AcXIVjq1va9Ir39ESzHV_", "https://drive.google.com/uc?export=view&id=1QssdiZoXSM3RQZam_IrcOSOSYB1w2v4B", "https://drive.google.com/uc?export=view&id=1MkTvP_-Oipsnn_w7fgbmXlZuLtfoCgnK", "https://drive.google.com/uc?export=view&id=1FNE_0L43tsxRWSlv7PsGSiCY-cri8fII", "https://drive.google.com/uc?export=view&id=1NunkHvuV-trc0SkxC0Efm-Pa9eqG9Hau", "https://drive.google.com/uc?export=view&id=1uzWks5pDnt1x5pHs6HDOR4ynVujY-cuS", "https://drive.google.com/uc?export=view&id=1x9d8QGYeAOYXkm3bbLE2sSOcVwo3-K3M", "https://drive.google.com/uc?export=view&id=18oeWHdZDh2TRXf4s19xPd05c3wmNRMKb", "https://drive.google.com/uc?export=view&id=1iNzvYLs6utEO0HqG_YIZFP0jGvgldKoA"];
+
+        // Select a random image
+        const randomImage = images[Math.floor(Math.random() * images.length)];
+
+        // Redirect to the random image
+        window.location.href = randomImage;
+    </script>
+</body>
+</html>
